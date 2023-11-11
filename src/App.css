@@ -1,7 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background{
+  background-color: #274E4F;
+}
+.contenedores{
+  display: inline-block;
+  padding: 16px;
+
+  
+}
+
+
+.cardDisplay{
+  height: 100%;
+}
+img{
+  object-fit: cover;
+  width: 200px;
+  height: 200px;
+  left: 0;
+}
+
+
+.title-txt{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.subject-txt{
+  height: 300px;
+}
+
+.botton{
+  position: absolute;
+  bottom: 0%;
+  width: auto;
+  
+}
+
 .App {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 
 }
 
@@ -27,5 +69,17 @@
   height: 50px;
   margin-top:5px
 }
+
+.navText{
+  color:aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navSearch{
+  padding-left: 550px;
+}
+
+
+
 
 
